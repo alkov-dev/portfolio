@@ -157,15 +157,16 @@ img {
 }
 .hero__container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .hero-right {
+
   position: relative;
   z-index: 1;
   width: 400px;
   height: 400px;
   object-fit: cover;
-  margin-left: 20px;
 }
 .hero-left {
   transform-origin: center;
